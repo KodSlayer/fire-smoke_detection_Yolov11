@@ -13,7 +13,7 @@ else:
 
     results = model.train(
         data=data_path,
-        epochs=30,
+        epochs=50,
         imgsz=640,
         batch=16,
         name="fire_smoke_yolo11",
